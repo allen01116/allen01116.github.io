@@ -3,6 +3,7 @@ body {
 }
 
 .container {
+    width: 90%;
     width: 400px;
     margin: 0 auto;
     padding-top: 20px;
@@ -12,7 +13,7 @@ body {
 }
 
 .input-container {
-    width: 100%;
+    width: 90%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -20,7 +21,7 @@ body {
 }
 
 .input-container label {
-    width: 45%;
+    width: 50%;
 }
 
 .input-container input {
@@ -30,7 +31,7 @@ body {
 }
 
 .clear-button {
-    width: 58px;
+    width: 80px;
     height: 25px;
     font-size: 14px;
     margin-top: 0px;
@@ -53,7 +54,7 @@ h5 {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    width: 100%;
+    width: 90%;
     margin-bottom: 10px;
 }
 
@@ -71,12 +72,13 @@ h5 {
 button {
     padding: 10px;
     margin-top: 10px;
-    width: 100%;
+    width: 90%;
     cursor: pointer;
 }
 
 .output-container {
-    width: 100%;
+    width: 90%;
+    line-height: 1.7;
     text-align: center;
     margin-top: 20px;
 }
